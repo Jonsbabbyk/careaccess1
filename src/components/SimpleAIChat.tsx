@@ -9,7 +9,7 @@ interface Message {
   timestamp: Date;
 }
 
-const API_BASE_URL = 'http://127.0.0.1:8000'; // Change to your backend URL if different
+const API_BASE_URL = 'https://careease-backend-tlkz.onrender.com'; // Change to your backend URL if different
 
 const SimpleAIChat: React.FC = () => {
   const { theme } = useTheme();
