@@ -19,7 +19,7 @@ ELEVEN_API_KEY = os.environ.get("ELEVEN_API_KEY")
 app = Flask(__name__)
 
 # Configure CORS to allow requests from your frontend's origin
-CORS(app, resources={r"/*": {"origins": "http://localhost:5173"}})
+CORS(app, resources={r"/*": {"origins": ["http://localhost:5173", "https://careease-frontend.onrender.com"]}})
 
 app.config['UPLOAD_FOLDER'] = 'audio'
 os.makedirs(app.config['UPLOAD_FOLDER'], exist_ok=True)
