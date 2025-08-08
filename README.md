@@ -4,6 +4,7 @@
 This interactive AI-driven interface supports voice interaction, symptom checking, and real-time accessibility enhancements to improve digital health engagement.
 
 ---
+<img width="1920" height="1080" alt="Image" src="https://github.com/user-attachments/assets/3e24f58c-92be-42b2-9e61-173b53571995" />
 
 ## 🚀 Features
 
